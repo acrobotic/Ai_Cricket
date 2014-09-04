@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -153,8 +153,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="13.97" x2="30.48" y2="16.51" width="0" layer="20" curve="-180"/>
-<wire x1="30.48" y1="16.51" x2="0" y2="13.97" width="0" layer="20" curve="-180"/>
 <wire x1="2.06375" y1="15.24" x2="28.41625" y2="15.24" width="0" layer="51" curve="-180"/>
 <wire x1="28.41625" y1="15.24" x2="2.06375" y2="15.24" width="0" layer="51" curve="-180"/>
 <text x="11.90625" y="11.2395" size="1.27" layer="21" ratio="15">CRICKET</text>
@@ -181,6 +179,7 @@
 <text x="5.588" y="20.32" size="1.27" layer="22" ratio="15" rot="SMR120">1</text>
 <text x="9.906" y="24.511" size="1.27" layer="22" ratio="15" rot="SMR150">0</text>
 <text x="19.177" y="20.193" size="1.27" layer="22" ratio="15" rot="MR0">CRICKET</text>
+<circle x="15.24" y="15.24" radius="15.24" width="0.0254" layer="20"/>
 </plain>
 <libraries>
 <library name="Ai_IC">
@@ -4740,6 +4739,28 @@ design rules under a new name.</description>
 <approved hash="4,16,8dc062be9917b549"/>
 <approved hash="4,16,afa3cfb21d10c096"/>
 <approved hash="4,16,c2a9b67200f95f49"/>
+<approved hash="4,1,9963658666d57323"/>
+<approved hash="4,1,e75847d2269a1a05"/>
+<approved hash="4,1,a4d990e6179c32fe"/>
+<approved hash="4,1,004556da74483b80"/>
+<approved hash="4,1,08e7ff0da8742d15"/>
+<approved hash="4,1,3f0785d7a793235d"/>
+<approved hash="4,1,96e2c00300701305"/>
+<approved hash="4,1,b31390bfdaf81ca1"/>
+<approved hash="4,1,da37d1f713923fd4"/>
+<approved hash="4,1,68d86113cc1b5120"/>
+<approved hash="4,1,d6ecf96a80091fa6"/>
+<approved hash="4,1,4bddd2f6d9efcfe5"/>
+<approved hash="4,16,9963658666d57323"/>
+<approved hash="4,16,e75847d2269a1a05"/>
+<approved hash="4,16,a4d990e6179c32fe"/>
+<approved hash="4,16,08e7ff0da8742d15"/>
+<approved hash="4,16,004556da74483b80"/>
+<approved hash="4,16,b31390bfdaf81ca1"/>
+<approved hash="4,16,da37d1f713923fd4"/>
+<approved hash="4,16,68d86113cc1b5120"/>
+<approved hash="4,16,d6ecf96a80091fa6"/>
+<approved hash="4,16,4bddd2f6d9efcfe5"/>
 </errors>
 </board>
 </drawing>
