@@ -16057,7 +16057,7 @@ Solder (NC) = 5V</text>
 <instance part="L" gate="G$1" x="181.61" y="57.15"/>
 <instance part="R9" gate="G$1" x="181.61" y="67.31" rot="MR90"/>
 <instance part="GND9" gate="GND" x="181.61" y="46.99"/>
-<instance part="U$14" gate="G$1" x="138.43" y="17.78"/>
+<instance part="U$14" gate="G$1" x="137.16" y="17.78"/>
 </instances>
 <busses>
 </busses>
